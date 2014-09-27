@@ -1,0 +1,2 @@
+SDCCCFLAGS = -DPS2GXEMU
+include Makefile.common

@@ -1,0 +1,7 @@
+SDCCCFLAGS = -DPS2GXEMU
+ROM = ../vm/rom_gxemu.h
+OPCODES = ../vm/opcodes_gxemu.c
+PRELOADER_KEYS = preloader_keys_gxemu
+LOADER_KEYS = loader_keys_gxemu
+
+include Makefile.common 

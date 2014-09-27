@@ -1,0 +1,7 @@
+SDCCCFLAGS = -DPS2HWEMU
+ROM = ../vm/rom_hwemu.h
+OPCODES = ../vm/opcodes_hwemu.c
+PRELOADER_KEYS = preloader_keys_hwemu
+LOADER_KEYS = loader_keys_hwemu
+
+include Makefile.common 

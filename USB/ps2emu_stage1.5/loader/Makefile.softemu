@@ -1,0 +1,7 @@
+SDCCCFLAGS = -DPS2SOFTEMU
+ROM = ../vm/rom_softemu.h
+OPCODES = ../vm/opcodes_softemu.c
+PRELOADER_KEYS = preloader_keys_softemu
+LOADER_KEYS = loader_keys_softemu
+
+include Makefile.common 

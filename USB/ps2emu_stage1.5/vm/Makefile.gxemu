@@ -1,0 +1,10 @@
+BUILD_TYPE=release
+CFLAGS=-DPS2GXEMU
+TARGET=ps2gxemu_stage1_5
+LDSCRIPT=ldscript_gxemu.ld
+KEYS=gxemu_keys
+HASH_KEYS=gxemu_hash_keys
+SECTION1_SIZE=0x3B00
+SECTION2_ADDR=0x72B8
+
+include Makefile.common

@@ -1,0 +1,10 @@
+BUILD_TYPE=release
+CFLAGS=-DPS2SOFTEMU
+TARGET=ps2softemu_stage1_5
+LDSCRIPT=ldscript_softemu.ld
+KEYS=softemu_keys
+HASH_KEYS=softemu_hash_keys
+SECTION1_SIZE=0x3B00
+SECTION2_ADDR=0x7140
+
+include Makefile.common

@@ -1,0 +1,34 @@
+// Addresses
+#define PS3_ADDRESS	0x7020 
+#define PS3_TOC		0x7024
+
+#define PS3_PARAM1	0x7030
+#define PS3_PARAM2	0x7038
+#define PS3_PARAM3	0x7040
+#define PS3_PARAM4	0x7048
+#define PS3_PARAM5	0x7050
+#define PS3_PARAM6	0x7058
+#define PS3_PARAM7	0x7060
+#define PS3_PARAM8	0x7068
+
+#define PS3_RESULT	0x7100
+
+#define PS3_RAM		0x7200
+#define PS3_CALL	0x7300
+
+#define XRAM_ADDR	0x7400
+#define ROM_ADDR	0x7404
+#define CYCLE_COUNT	0x7500
+#define INST_COUNT	0x7600
+
+#define VM_TICK		0x7700
+#define VM_REBOOT	0x7800
+#define VM_TERMINATE	0x7900
+
+#define VM_SAVED_PARAM1	0x7A00
+#define VM_SAVED_PARAM2 0x7B00
+#define VM_SAVED_PARAM3	0x7C00
+#define VM_SAVED_PARAM4	0x7D00
+
+#define ROM_RW		0x8000
+
